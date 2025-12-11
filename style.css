@@ -4,6 +4,15 @@ body{
   padding:0;
   background:#c2c2fb;
 }
+body::after {
+    content: "© Uma Swasthika";
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    opacity: 0.3;
+    pointer-events: none;
+}
 
 .container{
   max-width: 800px;
