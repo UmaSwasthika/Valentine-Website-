@@ -1,0 +1,55 @@
+body{
+  text-align: center;
+  margin:0;
+  padding:0;
+  background:#c2c2fb;
+}
+
+.container{
+  max-width: 800px;
+  margin:100px auto;
+}
+
+h1{
+  font-size: 3rem;
+  color:whitesmoke;
+}
+
+.btn-container{
+  display:flex;
+  justify-content: center;
+  gap:75px;
+}
+
+button{
+  border-radius: 5px;
+  border:none;
+  cursor: pointer;
+  padding: 10px 15px;
+  white-space:nowrap;
+  font-weight:600;
+  font-size: 1.3rem;
+  min-width:100px;
+  max-width:550px;
+  transition: transform 0.1s ease;  
+}
+
+#profile{
+  width:500px;
+
+}
+
+.btn-yes{
+  background-color:rgb(193, 36, 36);
+  color:whitesmoke;
+  font-family:Arial, Helvetica, sans-serif;
+  transform-origin: center top;
+  
+}
+
+.btn-noo{
+  background-color:rgb(190, 146, 96);
+  color:whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
